@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.4.2' if ENV.key?('DYNO')
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.0'
+gem 'html-proofer', '~> 3.7', '>= 3.7.5'
 gem 'jekyll', '>=3.1.6'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
